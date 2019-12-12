@@ -1,0 +1,50 @@
+html {
+    background: lightgray;
+}
+
+body {
+display: grid;
+grid-template-columns: 50px 2fr 1fr;
+grid-template-rows: 5% 20% 5% 1fr 5%;
+}
+
+header {
+   grid-row: 1; 
+   grid-column: 1 / span 3;
+}
+
+main {
+    grid-row: 2;
+    grid-column: 1 / span 3;
+}
+
+footer {
+    grid-row: 5;
+    grid-column: 1 / span 3;
+}
+
+#portrait {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+}
+
+#projectgrid {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+}
+
+#portrait img {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    grid-column: 2;
+}
+
+nav li,footer li{
+    display: inline-block;
+}

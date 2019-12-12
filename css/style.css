@@ -1,5 +1,5 @@
 html {
-  background: lightgray;
+  background: rgb(220, 240, 245);
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   justify-content: space-between;
   margin: 0;
   min-height: 100vh;
-}
+  font-family: 'Oswald', sans-serif;}
 
 main {
   border-bottom: 1px solid #777777;
@@ -30,15 +30,21 @@ footer, header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  color: white;
+  color: #5CAABC;
+  height: 50px;
 }
+
+header ul {
+  justify-content: flex-end;
+}
+
 
 nav li, footer li{
   margin: 0px 30px;
 }
 
 a {
-  color: white;
+  color: #5CAABC;
   text-decoration: none;
 }
 
@@ -52,22 +58,17 @@ nav ul, footer ul{
 }
 
 #portrait{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   width: 500px;
 }
 
-.projects {
+.grid, .profile {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
 }
 
-.projects li {
+.grid li {
   background: #FFF;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
@@ -78,20 +79,34 @@ nav ul, footer ul{
   justify-content: center;
 }
 
-.projects img {
-  width:200px;
+ h3 {
+  text-transform: uppercase;
+font-size: 25px;
 }
 
-#portrait img {
-  width:500px;
+.grid img, .profile img {
+  width:200px;
 }
 
 #name {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px;
   margin-bottom: 10px;
-  border-bottom: 2px solid gray;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 0px 1px #5CAABC;
+border-top: 1px solid #5CAABC;
+  background:#25527A;
+color: #5CAABC;
+font-size: 20px;
+
+}
+
+#logo {
+  justify-content: flex-start;
+  height: 100%;
+  border: 1px solid #5CAABC;
+  border-bottom: 2px solid #25527A;
+border-top: none;
+  position: relative;
+  z-index: initial;
 }

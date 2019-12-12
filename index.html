@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lilita+One|Oswald&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,48 +13,64 @@
   </head>
   <body>
     <header>
+      <img id="logo" src="images/logo.png" alt="logo" />
       <nav>
         <ul>
           <li><a href="aboutme.html">about me</a></li>
           <li><a href="projects.html">projects</a></li>
           <li>r&eacute;sum&eacute;</li>
         </ul>
-        <div id="social"></div>
       </nav>
     </header>
-    <div id = "name"><h1>Brendan Wilson | Future Coder</h1></div>
+    <div id="name"><h1>Brendan Wilson | Future Coder</h1></div>
     <main>
-      <div id="portrait">
-        <img src="images/brendan.jpg" alt="Picture of Brendan" />
+      <div class="profile">
+        <div id>
+          <ul id="skills">
+            <li><h3>Skills</h3></li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JS</li>
+          </ul>
+        </div>
+        <img id="portrait" src="images/brendan.jpg" alt="Picture of Brendan" />
       </div>
+
       <div>
         <div id="recent"><h3>Recent Projects</h3></div>
         <div id="projectbox">
-          <ul class="projects">
+          <ul class="grid">
             <li id="memory">
-                <a href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"></a>
-                <img src="images/memory.png" alt="Memory Game Screenshot">
-                <p>Memory Game</p>
+              <a
+                href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
+              ></a>
+              <img src="images/memory.png" alt="Memory Game Screenshot" />
+              <p>Memory Game</p>
             </li>
 
-            <li id="next"> 
-              <a href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"></a>
-              <img src="images/memory.png" alt="Memory Game Screenshot">
+            <li id="next">
+              <a
+                href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
+              ></a>
+              <img src="images/memory.png" alt="Memory Game Screenshot" />
               <p>Next Project</p>
-          </li>
+            </li>
 
-          <li id="next"> 
-              <a href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"></a>
-              <img src="images/memory.png" alt="Memory Game Screenshot">
+            <li id="next">
+              <a
+                href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
+              ></a>
+              <img src="images/memory.png" alt="Memory Game Screenshot" />
               <p>Next Project</p>
-          </li>
+            </li>
 
-          <li id="next"> 
-              <a href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"></a>
-              <img src="images/memory.png" alt="Memory Game Screenshot">
+            <li id="next">
+              <a
+                href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
+              ></a>
+              <img src="images/memory.png" alt="Memory Game Screenshot" />
               <p>Next Project</p>
-          </li>
-          
+            </li>
           </ul>
         </div>
       </div>

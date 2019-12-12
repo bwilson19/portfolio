@@ -6,14 +6,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   margin: 0;
   min-height: 100vh;
   font-family: 'Oswald', sans-serif;}
 
 main {
-  border-bottom: 1px solid #777777;
   font-size: 21px;
   flex: 1;
+  max-width: 800px;
 }
 
 
@@ -23,7 +24,7 @@ li {
 
 header, footer {
   background: black;
-
+width: 100%;
 }
 
 footer, header {
@@ -58,8 +59,8 @@ nav ul, footer ul{
 }
 
 #portrait{
-  width: 500px;
-}
+  width: 400px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);}
 
 .grid, .profile {
   display: flex;
@@ -84,7 +85,7 @@ nav ul, footer ul{
 font-size: 25px;
 }
 
-.grid img, .profile img {
+.grid img {
   width:200px;
 }
 
@@ -92,13 +93,13 @@ font-size: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 10px;
-  box-shadow: 0px 1px 0px 1px #5CAABC;
+  margin-bottom: 25px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
 border-top: 1px solid #5CAABC;
   background:#25527A;
 color: #5CAABC;
 font-size: 20px;
-
+width: 100%;
 }
 
 #logo {
@@ -109,4 +110,19 @@ font-size: 20px;
 border-top: none;
   position: relative;
   z-index: initial;
+}
+
+.profile {
+  box-shadow: 0 0 30px 2px rgba(14, 78, 97, 0.8);
+padding: 30px 0px;
+margin: 10px 0px;
+background-color: rgb(225, 242, 248);
+}
+
+ul {
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }

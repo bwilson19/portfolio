@@ -11,7 +11,6 @@ body {
 }
 
 main {
-  border-top: 1px solid #777777;
   border-bottom: 1px solid #777777;
   font-size: 21px;
   flex: 1;
@@ -69,9 +68,7 @@ nav ul, footer ul{
 }
 
 .projects li {
-  margin: 0 0 1.5em 0;
   background: #FFF;
-  padding: 5% 5% 0 5%;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -87,4 +84,15 @@ nav ul, footer ul{
 
 #portrait img {
   width:500px;
+}
+
+#name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid gray;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+
 }

@@ -128,3 +128,7 @@ header li a:hover {
   background-color: #49AEB6;
   padding: 20px 0px;
 }
+
+footer {
+  margin-top: 60px;
+}

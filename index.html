@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Lilita+One|Oswald&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,18 +14,20 @@
         <a href="index.html"><img id="logo" src="images/logo.png" alt="logo" /></a>
       <nav>
         <ul>
-          <li><a href="aboutme.html">&nbsp&nbsp&nbspabout me&nbsp&nbsp&nbsp</a></li>
+          <li><a class="active" href="aboutme.html">&nbsp&nbsp&nbspabout me&nbsp&nbsp&nbsp</a></li>
           <li><a href="projects.html">&nbsp&nbsp&nbspprojects&nbsp&nbsp&nbsp</a></li>
           <li>&nbsp&nbsp&nbspr&eacute;sum&eacute;&nbsp&nbsp&nbsp</li>
+          
         </ul>
       </nav>
     </header>
-    <div id="name"><h1>Brendan Wilson&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbspfuture coder</h1></div>
+    <div id="name"><h1>Brendan Wilson&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbspPortfolio</h1>
+    </div>
     <main>
       <div class="profile">
         <div>
           <ul id="skills">
-            <li><h3>Skills</h3></li>
+            <li><h3><span id="underline">Skills</span></h3></li>
             <li>HTML5</li>
             <li>CSS</li>
             <li>JS</li>
@@ -33,11 +36,11 @@
         <img id="portrait" src="images/brendan.jpg" alt="Picture of Brendan" />
       </div>
 
-      <div>
+      <div id="projectgrid">
         <div id="recent"><h3>Recent Projects</h3></div>
         <div id="firstrow">
           <ul class="grid">
-            <li id="memory">
+            <li class = "project">
               <a
                 href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
               ></a>
@@ -45,7 +48,7 @@
               <p>Memory Game</p>
             </li>
 
-            <li id="next">
+            <li class = "project">
               <a
                 href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
               ></a>
@@ -56,15 +59,14 @@
 
           <div id="secondrow">
             <ul class="grid">
-              <li id="memory">
-                <a
-                  href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
+              <li class = "project">
+                <a href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
                 ></a>
                 <img src="images/memory.png" alt="Memory Game Screenshot" />
                 <p>Memory Game</p>
               </li>
   
-              <li id="next">
+              <li class = "project">
                 <a
                   href="https://github.com/bwilson19/wdi-fundamentals-memorygame/tree/master/memory_game"
                 ></a>
@@ -76,7 +78,7 @@
           </ul>
         </div>
       </div>
-    </main>
+      </main>
     <footer>
       <p class="copyright">&copy; 2019 Brendan Wilson</p>
       <ul>

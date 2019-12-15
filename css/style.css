@@ -83,7 +83,6 @@ footer ul {
   color: white;
 }
 h3 {
-  text-transform: uppercase;
   font-size: 16px;
 }
 .grid img {
@@ -151,6 +150,7 @@ footer {
   header li,
   footer li {
     margin: 0px 10px;
+    font-size: 13px;
   }
 
   #logo {
@@ -177,6 +177,7 @@ footer {
 
   #name {
     margin-bottom: 0px;
+    font-size: 8px;
   }
 
   footer {

@@ -1,11 +1,14 @@
+const logo = document.getElementById('logo');
+
 function logoHover() {
-  document.getElementById('logo').src = 'images/logohover.png';
+  logo.src = 'images/logohover.png';
+  logo.style.boxShadow = '0px 0px 200px 1px white';
 }
 
 function returnLogo() {
-  document.getElementById('logo').src = 'images/logo.png';
+  logo.src = 'images/logo.png';
+  logo.style.boxShadow = '0px 0px 0px 0px';
 }
 
-document.getElementById('logo').addEventListener('mouseover', logoHover);
-document.getElementById('logo').addEventListener('mouseout', returnLogo);
-
+logo.addEventListener('mouseover', logoHover);
+logo.addEventListener('mouseout', returnLogo);

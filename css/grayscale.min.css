@@ -126,7 +126,7 @@
   }
   .masthead h1 {
     font-size: 2rem;
-    line-height: 4rem;
+    line-height: 6rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
@@ -144,7 +144,7 @@
   border: 0;
 }
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #303030;
 }
 .btn-primary:hover {
   background-color: #4f837f;
@@ -154,7 +154,7 @@
   color: #fff;
 }
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #303030 !important;
 }
 .about-section {
   padding-top: 10rem;
@@ -262,4 +262,14 @@ footer {
 
 #projects-button {
   margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+  #project-two {
+    margin-bottom: 3rem;
+  }
+}
+
+#projects ul {
+  margin-top: 1rem;
 }

@@ -273,3 +273,8 @@ footer {
 #projects ul {
   margin-top: 1rem;
 }
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}

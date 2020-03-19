@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-
+<link rel="icon" href="/img/favicon.ico" />
     <title>Brendan Wilson | Portfolio</title>
 
     <!-- Bootstrap core CSS -->
@@ -59,7 +59,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Resume</a>
+              <a class="nav-link js-scroll-trigger" href="https://drive.google.com/file/d/1cVBg4d8WJC6Cc4e1Jt3xMd9rlWDV77cw/view?usp=sharing" target="_blank">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="https://www.linkedin.com/in/brendandwilson/" class="mx-2" target="_blank">
@@ -112,14 +112,83 @@
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <a href="http://shredapp.herokuapp.com/" target="blank"><img class="img-fluid mb-3 mb-lg-0" src="img/shred.gif" alt="Shred" />
+            <a href="https://recessgames.herokuapp.com/" target="blank"><img class="img-fluid mb-3 mb-lg-0" src="img/recess.gif" alt="Recess" />
           </div>
 
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-lg-left">
-              <h4>Shred</h4></a>
+              <h4>Recess</h4></a>
               <p class="text-black-50 mb-0">
-                Shred is a informative app that allows users to search through nearly all of the ski resorts in the world, and get updated details about each resort. Users are able to see a recent ski map image as well as current weather for the resort's location.<br><br><span style="font-weight: bold;">Built with:</span><br>
+                Full-stack application designed to make it easier to find & create local pickup games or leagues. Users are able to search through a database of games created by other users, add their own, and edit or delete games. They are also able to see the exact location of the game using a Google Map plugin. User login and sign up is authenticated with JWT. <br><br><span style="font-weight: bold;">Built with:</span><br>
+                <ul>
+                  <li>React</li>
+                  <li>Python</li>
+                  <li>Django</li>
+                  <li>PostgreSQL</li>
+                  <li>Django REST Framework</li>
+                  <li>JWT</li>
+                  </ul>
+                
+              </p>
+              <ul>
+                  <li><a href="https://github.com/bwilson19/recess-frontend" target="blank">Front-end Repo</a></li>
+                  <li><a href="https://github.com/bwilson19/recess-backend" target="blank">Back-end Repo</a></li>
+                  </ul>
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Project One Row -->
+        
+        
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <a href="https://gatherupapp.herokuapp.com/" target="blank"><img class="img-fluid mb-3 mb-lg-0" src="img/gatherup.png" alt="GatherUp" />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center  h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Gather Up</h4></a>
+                  <p class="mb-0 text-white-50">
+                    Full-stack application that allows users browse local events by name or genre, see their location and details, add, edit, and delete local events, and receive an email for event tickets. Backend API built with MongoDB.<br><br><span style="font-weight: bold;">Built with:</span><br>
+                <ul style="color:#A0A0A1; padding-left: 0;">
+                  <li>React</li>
+                  <li>MongoDB</li>
+                  <li>Express</li>
+                  <li>Mongoose</li>
+                  <li>Node</li>
+                  <li>Mocha/Chai</li>
+                </ul>
+                  </p>
+                  <ul>
+                  <li><a href="https://github.com/2magpies/ibcc-frontend" target="blank">Front-end Repo</a></li>
+                  <li><a href="https://github.com/2magpies/ibcc-backend" target="blank">Back-end Repo</a></li>
+                  </ul>
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div id= "project-two" class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <a href="http://shredapp.herokuapp.com/" target="blank"><img class="img-fluid mb-3 mb-lg-0" src="img/shred.gif" alt="Shred" />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Shred</h4>
+                  <p class="mb-0 text-white-50">
+                   Shred is an informative app that allows users to search through nearly all of the ski resorts in the world, and get updated details about each resort. Users are able to see a recent ski map image as well as current weather for the resort's location.<br><br><span style="font-weight: bold;">Built with:</span><br>
                 <ul>
                   <li>React</li>
                   <li>Javascript</li>
@@ -131,27 +200,27 @@
                       <li><a href='https://openweathermap.org/api' target="blank">Weather Data</a></li>
                       <li><a href='https://skimap.org/pages/Developers' target="blank"> Resort Data (including Ski Map images) </a></li>
                     </ul>
-                
-              </p>
-              <a href="https://github.com/bwilson19/shred" target="blank">GitHub Repo</a>
+                  </p>
+                  <a href="https://github.com/bwilson19/shred" target="blank">GitHub Repo</a>
+                  <hr class="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Project One Row -->
-        
-        
+<!-- Project Three Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <a href="https://bwilson19.github.io/baseballtrivia/"target="blank"><img class="img-fluid" src="img/baseball.gif" alt="Baseball Trivia" />
           </div>
           <div class="col-lg-6">
-            <div class="bg-black  h-100 project">
+            <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div
-                  class="project-text w-100 my-auto  text-lg-left"
+                  class="project-text w-100 my-auto text-center text-lg-left"
                 >
-                  <h4 class="text-white">Baseball Trivia</h4></a>
+                  <h4 class="text-white">Baseball Trivia</h4>
                   <p class="mb-0 text-white-50">
                     Score 10 runs before making 3 outs!<br><br><span style="font-weight: bold;">Built with:</span><br>
                 <ul style="color:#A0A0A1; padding-left: 0;">
@@ -167,51 +236,7 @@
             </div>
           </div>
         </div>
-
-        <!-- Project Two Row -->
-        <!-- <div id= "project-two" class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/memory.png" alt="" />
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-right"
-                >
-                  <h4 class="text-white">Placeholder</h4>
-                  <p class="mb-0 text-white-50">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odit aut, magnam adipisci dolorum in consectetur voluptates eligendi labore modi molestias dolore corrupti minus est voluptatibus delectus obcaecati necessitatibus soluta?
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-<! --Project Three Row -->
-        <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img cl  ass="img-fluid" src="img/memory.png" alt="" />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-left"
-                >
-                  <h4 class="text-white">Memory Game</h4>
-                  <p class="mb-0 text-white-50">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quam aut vitae laboriosam. Blanditiis vero, perferendis quos sint tenetur in laborum excepturi odit maiores exercitationem nostrum, dolore voluptatem, nemo dolor.
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> --> 
+      </div>
       
       
     </section>
